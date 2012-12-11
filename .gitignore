@@ -1,3 +1,7 @@
+.metadata
+out
+
+
 *.class
 
 # Package Files #
