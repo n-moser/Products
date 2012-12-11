@@ -8,4 +8,4 @@ echo "Finished copying JBoss Modules"
 cd ~/app-root/repo/com.moser.products/
 
 # Build Application EAR
-ant ear -v
+ant ear
