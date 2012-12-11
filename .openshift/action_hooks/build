@@ -1,2 +1,8 @@
+# Copy JBoss Modules
+find ~/jbossas-7/jbossas-7/modules/ -name "*.jar" -exec cp "{}" ~/app-root/repo/com.moser.products/lib \;
+
+# Change to Project Directory
 cd ~/app-root/repo/com.moser.products/
+
+# Start Ant Build
 ant ear
