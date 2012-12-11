@@ -1,0 +1,2 @@
+cd com.moser.products/
+ant ear 
