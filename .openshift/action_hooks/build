@@ -1,5 +1,5 @@
 # Copy JBoss Modules
-echo "Copy JBoss Modules..."
+echo "Start copying JBoss Modules..."
 find ~/jbossas-7/jbossas-7/modules/ -name "*.jar" -exec cp "{}" ~/app-root/repo/com.moser.products/lib/ \;
 echo "Finished copying JBoss Modules"
 
@@ -7,4 +7,4 @@ echo "Finished copying JBoss Modules"
 cd ~/app-root/repo/com.moser.products/
 
 # Build Application EAR
-ant ear
+ant ear -v
