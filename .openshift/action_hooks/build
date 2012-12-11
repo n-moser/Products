@@ -1,5 +1,7 @@
 # Copy JBoss Modules
+echo "Copy JBoss Modules..."
 find ~/jbossas-7/jbossas-7/modules/ -name "*.jar" -exec cp "{}" ~/app-root/repo/com.moser.products/lib/ \;
+echo "Finished copying JBoss Modules"
 
 # Change to Project Directory
 cd ~/app-root/repo/com.moser.products/
